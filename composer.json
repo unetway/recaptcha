@@ -1,0 +1,25 @@
+{
+  "name": "unetway/recaptcha",
+  "description": "Пакет для работы с Recaptcha",
+  "keywords": [
+    "recaptcha",
+  ],
+  "homepage": "https://github.com/unetway/recaptcha",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cherepanov Ilya",
+      "email": "support@unetway.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Unetway\\Recaptcha\\": "src/"
+    }
+  }
+}
+
