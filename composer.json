@@ -2,7 +2,7 @@
   "name": "unetway/recaptcha",
   "description": "Пакет для работы с Recaptcha",
   "keywords": [
-    "recaptcha",
+    "recaptcha"
   ],
   "homepage": "https://github.com/unetway/recaptcha",
   "license": "MIT",
