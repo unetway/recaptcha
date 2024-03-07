@@ -53,10 +53,8 @@ class Recaptcha
 
             return $result['success'];
         } catch (ClientException $exception) {
-            error_log($exception->getMessage());
+            throw new Exception($exception);
         }
-
-        return false;
     }
 
 }
